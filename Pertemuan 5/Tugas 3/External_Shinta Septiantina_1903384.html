@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style type="text/css">@import "register.css";</style>
+    </head>
+    <form action="action_page.php">
+        <div class="container">
+            <h1>Registration Form Online Chess Tournament 2021</h1>
+            <p>Isilah formulir berikut ini untuk membuat akun</p>
+            <hr>
+
+            <label for="email"><b>Nama</b></label>
+            <input type="text" placeholder="Masukkan Nama" name="nama" id="nama" required>
+			
+			<label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Masukkan Email" name="email" id="email" required>
+
+            <label for="pass"><b>Password</b></label>
+            <input type="password" placeholder="Masukkan Kata Sandi" name="pass" id="pass" required>
+
+            <label for="pass-repeat"><b>Konfirmasi Password</b></label>
+            <input type="password" placeholder="Konfirmasi Kata Sandi" name="pass-repeat" id="pass-repeat" required>
+            <hr>
+
+            <p>Dengan ini saya telah menyetujui <a href="#"> Kebjiakan dan Privasi</a>.</p>
+            <button type="submit" class="registertbl">Register</button>
+        </div>
+
+        <div class="container signin">
+            <p>Sudah memiliki akun? <a href="#">Sign in</a></p>
+        </div>
+    </form>
+</html>
